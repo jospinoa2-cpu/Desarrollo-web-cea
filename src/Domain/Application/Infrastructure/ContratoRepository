@@ -1,0 +1,11 @@
+<?php
+// Acceso a datos para Contrato - Capa de Infraestructura
+class ContratoRepository {
+    public function guardar($contrato) {
+        // guardar contrato en BD
+    }
+
+    public function buscarPorId($id) {
+        // buscar contrato por id en BD
+    }
+}

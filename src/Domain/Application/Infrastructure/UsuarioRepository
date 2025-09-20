@@ -1,0 +1,11 @@
+<?php
+// Acceso a datos para Usuario - Capa de Infraestructura
+class UsuarioRepository {
+    public function guardar($usuario) {
+        // guardar usuario en BD
+    }
+
+    public function buscarPorId($id) {
+        // buscar usuario por id en BD
+    }
+}

@@ -1,0 +1,11 @@
+<?php
+// Servicio de lógica para Usuario - Capa de Aplicación
+class UsuarioService {
+    public function registrarUsuario($usuario) {
+        // lógica para registrar usuario
+    }
+
+    public function iniciarSesion($usuario, $clave) {
+        // lógica para inicio de sesión
+    }
+}

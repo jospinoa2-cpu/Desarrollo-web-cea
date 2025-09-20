@@ -1,0 +1,25 @@
+<?php
+// Entidad Contrato - Capa de Dominio
+class Contrato {
+    public $id;
+    public $fechaFirma;
+    public $fechaInicio;
+    public $fechaFin;
+    public $empresa;
+    public $empleado;
+    public $funciones;
+    public $monto;
+    public $frecuenciaPago;
+
+    public function __construct($id, $fechaFirma, $fechaInicio, $fechaFin, $empresa, $empleado, $funciones, $monto, $frecuenciaPago) {
+        $this->id = $id;
+        $this->fechaFirma = $fechaFirma;
+        $this->fechaInicio = $fechaInicio;
+        $this->fechaFin = $fechaFin;
+        $this->empresa = $empresa;
+        $this->empleado = $empleado;
+        $this->funciones = $funciones;
+        $this->monto = $monto;
+        $this->frecuenciaPago = $frecuenciaPago;
+    }
+}

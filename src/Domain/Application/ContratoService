@@ -1,0 +1,11 @@
+<?php
+// Servicio de lógica para Contrato - Capa de Aplicación
+class ContratoService {
+    public function crearContrato($contrato) {
+        // lógica para crear contrato
+    }
+
+    public function listarContratos() {
+        // lógica para listar contratos
+    }
+}
